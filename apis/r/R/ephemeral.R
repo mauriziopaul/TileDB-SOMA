@@ -381,7 +381,7 @@ EphemeralCollectionBase <- R6::R6Class(
 #' @export
 #'
 EphemeralCollection <- R6::R6Class(
-  classname = 'EphemeralCollection',
+  classname = "EphemeralCollection",
   inherit = EphemeralCollectionBase,
 
   active = list(
