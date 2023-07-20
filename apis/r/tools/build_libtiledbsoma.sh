@@ -14,7 +14,7 @@ cwd=`pwd`
 cd src/libtiledbsoma/build-lib
 
 ## The placeholder is filled in by check_cmake_and_git.R
-@cmake@ \
+/opt/homebrew/bin/cmake \
       -DDOWNLOAD_TILEDB_PREBUILT=ON \
       -DTILEDBSOMA_BUILD_CLI=OFF \
       -DTILEDBSOMA_ENABLE_TESTING=OFF \

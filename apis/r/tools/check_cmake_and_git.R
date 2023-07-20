@@ -13,7 +13,7 @@ if (git_bin == "") {
     stop("No 'git' binary found", call. = FALSE)
 }
 
-lines <- readLines("tools/build_libtiledbsoma.sh.in")
-lines <- gsub("@cmake@", cmake_bin, lines)
-writeLines(lines, "tools/build_libtiledbsoma.sh")
+#lines <- readLines("tools/build_libtiledbsoma.sh.in")
+#lines <- gsub("@cmake@", cmake_bin, lines)
+#writeLines(lines, "tools/build_libtiledbsoma.sh")
 Sys.chmod("tools/build_libtiledbsoma.sh", mode="0755")
