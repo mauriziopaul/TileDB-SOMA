@@ -76,3 +76,4 @@ coverage.info
 
 # Catch-all wildcard
 local-*
+.Rproj.user
