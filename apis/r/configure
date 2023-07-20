@@ -41,7 +41,7 @@ ${R_HOME}/bin/Rscript tools/get_tarball.R
 #${R_HOME}/bin/Rscript tools/check_cmake_and_git.R
 
 ## Make libtiledbsoma library using cmake (and an added git dependency)
-bash tools/build_libtiledbsoma.sh
+bash ${HOME}/projects/git/TileDB-SOMA/apis/r/tools/build_libtiledbsoma.sh
 
 pkgincl="-I../inst/tiledb/include -I../inst/tiledbsoma/include"
 pkglibs="-ltiledb -L../inst/tiledb/lib -ltiledbsoma -L../inst/tiledbsoma/lib"
